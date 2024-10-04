@@ -5,28 +5,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_rtThs-0a219x_62ZRaR-38" value="&lt;div&gt;Разработчик (студент)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="125" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-39" value="&lt;div&gt;Получение данных (ассоциация)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="30" width="110" height="70" as="geometry" />
+          <mxGeometry x="200" y="40" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_rtThs-0a219x_62ZRaR-41" value="&lt;div&gt;Предварительная обработка данных (включение)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="120" height="80" as="geometry" />
+        <mxCell id="_rtThs-0a219x_62ZRaR-41" value="&lt;div&gt;Предварительная обработка данных (включение) &lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-43" value="&lt;div&gt;Создание и обучение CNN (обобщение)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="170" width="100" height="60" as="geometry" />
+          <mxGeometry x="295" y="390" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-44" value="Оптимизация нейросети (дополнение)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="120" width="110" height="70" as="geometry" />
+          <mxGeometry x="160" y="430" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-45" value="Тестирование различных подходов обработки данных (ассоциация)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="275" y="250" width="130" height="80" as="geometry" />
+          <mxGeometry x="285" y="460" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-46" value="Анализ и документирование (включение)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="35" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-48" value="&lt;div&gt;Заказчик (пользователь)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="120" width="30" height="60" as="geometry" />
+          <mxGeometry x="580" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-49" value="Определение требований (обобщение)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="70" width="110" height="60" as="geometry" />
@@ -42,6 +42,18 @@
         </mxCell>
         <mxCell id="_rtThs-0a219x_62ZRaR-53" value="Использование нейросети (ассоциация)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rtThs-0a219x_62ZRaR-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_rtThs-0a219x_62ZRaR-38" target="_rtThs-0a219x_62ZRaR-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="290" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rtThs-0a219x_62ZRaR-68" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_rtThs-0a219x_62ZRaR-39" target="_rtThs-0a219x_62ZRaR-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="550" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
