@@ -125,37 +125,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-1" value="Контент менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="760" width="30" height="60" as="geometry" />
+          <mxGeometry x="740" y="775" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-2" value="Просмотр контента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="600" width="120" height="80" as="geometry" />
+          <mxGeometry x="220" y="880" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-3" value="Добавление товаров в корзину" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="222.5" y="690" width="115" height="80" as="geometry" />
+          <mxGeometry x="222.5" y="600" width="115" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-4" value="оформление заказа" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="790" width="97.5" height="70" as="geometry" />
+          <mxGeometry x="230" y="700" width="97.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-5" value="Заказчик (покупатель)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="760" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-6" value="Добавление товаров" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="610" width="100" height="70" as="geometry" />
+          <mxGeometry x="550" y="625" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-7" value="Редактирование контента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="695" width="100" height="70" as="geometry" />
+          <mxGeometry x="550" y="710" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-8" value="Просмотр истории заказов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220.63" y="870" width="118.75" height="80" as="geometry" />
+          <mxGeometry x="219.37" y="785" width="118.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-9" value="Просмотр отзывов на товары" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="780" width="100" height="70" as="geometry" />
+          <mxGeometry x="550" y="530" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-10" value="Изминение видимости товара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="515" width="100" height="70" as="geometry" />
+          <mxGeometry x="395" y="530" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-11" value="Поиск товаров" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220.63" y="960" width="120" height="80" as="geometry" />
+          <mxGeometry x="219.37" y="980" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-12" value="Поиск по категорям" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="960" width="110" height="80" as="geometry" />
@@ -205,61 +205,67 @@
             <mxPoint x="351" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FAR682UhyKgTDgVu_QSN-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="941" as="sourcePoint" />
-            <mxPoint x="350" y="990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-22" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="934" y="920" as="sourcePoint" />
-            <mxPoint x="655" y="1119" as="targetPoint" />
+            <mxPoint x="934" y="935" as="sourcePoint" />
+            <mxPoint x="655" y="1134" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-23" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="929" as="sourcePoint" />
-            <mxPoint x="750" y="950" as="targetPoint" />
+            <mxPoint x="840" y="944" as="sourcePoint" />
+            <mxPoint x="750" y="965" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="991" as="sourcePoint" />
-            <mxPoint x="790" y="940" as="targetPoint" />
+            <mxPoint x="880" y="1006" as="sourcePoint" />
+            <mxPoint x="790" y="955" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-25" value="Создание новой категории товара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="607.5" width="110" height="75" as="geometry" />
+          <mxGeometry x="390" y="622.5" width="110" height="75" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-26" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-25" target="FAR682UhyKgTDgVu_QSN-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="780" as="sourcePoint" />
-            <mxPoint x="390" y="780" as="targetPoint" />
+            <mxPoint x="470" y="795" as="sourcePoint" />
+            <mxPoint x="390" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-27" value="Добавление изображений товара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="695" width="110" height="75" as="geometry" />
+          <mxGeometry x="390" y="710" width="110" height="75" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-28" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-27" target="FAR682UhyKgTDgVu_QSN-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="655" as="sourcePoint" />
-            <mxPoint x="560" y="655" as="targetPoint" />
+            <mxPoint x="510" y="670" as="sourcePoint" />
+            <mxPoint x="560" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-29" value="Добавление описания товара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="790" width="110" height="75" as="geometry" />
+          <mxGeometry x="390" y="805" width="110" height="75" as="geometry" />
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-30" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="1028" as="sourcePoint" />
-            <mxPoint x="550" y="650" as="targetPoint" />
+            <mxPoint x="650" y="1043" as="sourcePoint" />
+            <mxPoint x="550" y="665" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FAR682UhyKgTDgVu_QSN-31" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-10" target="FAR682UhyKgTDgVu_QSN-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="540" as="sourcePoint" />
-            <mxPoint x="600" y="540" as="targetPoint" />
+            <mxPoint x="550" y="555" as="sourcePoint" />
+            <mxPoint x="600" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAR682UhyKgTDgVu_QSN-32" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="690" y="970" as="sourcePoint" />
+            <mxPoint x="770" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAR682UhyKgTDgVu_QSN-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAR682UhyKgTDgVu_QSN-1" target="FAR682UhyKgTDgVu_QSN-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="796" y="980" as="sourcePoint" />
+            <mxPoint x="395" y="1187" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
