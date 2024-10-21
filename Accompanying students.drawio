@@ -164,6 +164,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="XpezoiEFaHmMpe5Qhz2z-114" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Чек-листы&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Table: checklists&lt;/p&gt;&lt;p&gt;Для отображения активных задач по помощи студентам в WebApps для тьюторов&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="560" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XpezoiEFaHmMpe5Qhz2z-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XpezoiEFaHmMpe5Qhz2z-59" target="XpezoiEFaHmMpe5Qhz2z-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="635" />
+              <mxPoint x="300" y="790" />
+              <mxPoint x="820" y="790" />
+              <mxPoint x="820" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
