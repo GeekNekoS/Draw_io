@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.1">
   <diagram name="Page-1" id="vidY6m3BoQWCcObSoisV">
-    <mxGraphModel dx="2097" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +274,7 @@
           <mxGeometry y="180" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpezoiEFaHmMpe5Qhz2z-196" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot; data-src-align=&quot;0:13&quot; class=&quot;EzKURWReUAB5oZgtQNkl&quot;&gt;Auth_code&lt;/span&gt;&lt;/h1&gt;Уникальный код для идентификации личности UUID. Будет использоваться дополнительным параметров в ссылке на подключение в бота" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-510" y="-100" width="220" height="110" as="geometry" />
+          <mxGeometry x="-540" y="220" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XpezoiEFaHmMpe5Qhz2z-197" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -447,32 +447,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gdvaBDr2kM3iiOGNaKla-1" value="Auth_codes (коды авторизации)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="-240" width="240" height="120" as="geometry" />
+          <mxGeometry x="-540" y="-230" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gdvaBDr2kM3iiOGNaKla-2" value="id " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gdvaBDr2kM3iiOGNaKla-1">
-          <mxGeometry y="30" width="240" height="30" as="geometry" />
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdvaBDr2kM3iiOGNaKla-3" value="&lt;code&gt;user_id (&lt;/code&gt;tutors &lt;code&gt;.id), (&lt;/code&gt;students&lt;code&gt;.id&lt;/code&gt;&lt;code&gt;)&lt;/code&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gdvaBDr2kM3iiOGNaKla-1">
-          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        <mxCell id="gdvaBDr2kM3iiOGNaKla-3" value="&lt;code&gt;telegram_id (bot_users.telegram_id)&lt;br&gt;&lt;/code&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gdvaBDr2kM3iiOGNaKla-1">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdvaBDr2kM3iiOGNaKla-12" value="user_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gdvaBDr2kM3iiOGNaKla-1">
+          <mxGeometry y="90" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gdvaBDr2kM3iiOGNaKla-8" value="auth_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="gdvaBDr2kM3iiOGNaKla-1">
-          <mxGeometry y="90" width="240" height="30" as="geometry" />
+          <mxGeometry y="120" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdvaBDr2kM3iiOGNaKla-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gdvaBDr2kM3iiOGNaKla-3" target="XpezoiEFaHmMpe5Qhz2z-183">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gdvaBDr2kM3iiOGNaKla-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot; data-src-align=&quot;0:13&quot; class=&quot;EzKURWReUAB5oZgtQNkl&quot;&gt;Админы&lt;/span&gt;&lt;/h1&gt;Данная роль не будет задаваться отдельной таблицей в базе, просто после подключения в бота, получаем Telegram ID пользователя, которого хотим сделать админом, и задаём ему user_type - admin (потому что их не там много будет, чтобы под них отдельную таблицу заводить)" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="360" width="220" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="gdvaBDr2kM3iiOGNaKla-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gdvaBDr2kM3iiOGNaKla-3" target="XpezoiEFaHmMpe5Qhz2z-99">
+        <mxCell id="gdvaBDr2kM3iiOGNaKla-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot; data-src-align=&quot;0:13&quot; class=&quot;EzKURWReUAB5oZgtQNkl&quot;&gt;Auth_codes&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;По двум таблицам будет проходить скрипт и генерить коды авторизации, записывая их в auth_codes. Для пользователя будет создаваться auth_code, задаваться user_type в зависимости от того, на основе какой таблицы генерировались данные. Если по tutors, то в auth_codes добавится запись с id (serial primary key), telegram_id (который будет получаться и заполняться сюда, как только пользователь авторизуется), user_type (если код генерировлся по таблице tutors, то user_type будет tutor), и, собственно, сам auth_code (код авторизации)&amp;nbsp; " style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-50" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gdvaBDr2kM3iiOGNaKla-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gdvaBDr2kM3iiOGNaKla-3" target="XpezoiEFaHmMpe5Qhz2z-93">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-130" y="-165" />
-              <mxPoint x="-130" y="-270" />
-              <mxPoint x="280" y="-270" />
-              <mxPoint x="280" y="95" />
+              <mxPoint x="10" y="-155" />
+              <mxPoint x="10" y="95" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gdvaBDr2kM3iiOGNaKla-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot; data-src-align=&quot;0:13&quot; class=&quot;EzKURWReUAB5oZgtQNkl&quot;&gt;Админы&lt;/span&gt;&lt;/h1&gt;Данная роль не будет задаваться отдельной таблицей в базе, просто после подключения в бота, получаем Telegram ID пользователя, которого хотим сделать админом, и задаём ему user_type - admin" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="50" width="220" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
